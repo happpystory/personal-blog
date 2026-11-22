@@ -1,0 +1,65 @@
+.navbar {
+  min-height: 20px;
+  height: auto;
+  padding: 5px 10px;
+  box-sizing: border-box;
+
+  background-color: #445967;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.app__title { 
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.left__items { 
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.items a {
+  font-size: 16px;
+  line-height: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.items button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.items button img {
+  width: 20px;
+  height: 14px;
+  object-fit: cover;
+}
+
+.flag__wrapper { 
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.content__links { 
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
